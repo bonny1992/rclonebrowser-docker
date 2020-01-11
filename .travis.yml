@@ -6,6 +6,9 @@ sudo: 'required'
 services:
   - 'docker'
 
+arch:
+  - 'arm64'
+
 # prepare the machine before any code
 # installation scripts 
 
