@@ -51,6 +51,8 @@ RUN apk --no-cache add \
     rm -rf /tmp/*
  
 # Maximize only the main/initial window.
+ADD rc.xml /etc/xdg/openbox/
+
 RUN \
     sed-patch 's/<application type="normal">/<application type="normal" title="Rclone Browser">/' \
         /etc/xdg/openbox/rc.xml
