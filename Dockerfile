@@ -58,9 +58,9 @@ RUN \
         /etc/xdg/openbox/rc.xml
 
 # Generate and install favicons.
-RUN \
-    APP_ICON_URL=https://github.com/rclone/rclone/raw/master/graphics/logo/logo_symbol/logo_symbol_color_512px.png && \
-    install_app_icon.sh "$APP_ICON_URL"
+# RUN \
+#     APP_ICON_URL=https://github.com/rclone/rclone/raw/master/graphics/logo/logo_symbol/logo_symbol_color_512px.png && \
+#     install_app_icon.sh "$APP_ICON_URL"
 
 # Add files.
 COPY rootfs/ /
