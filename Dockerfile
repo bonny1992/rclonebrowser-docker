@@ -2,11 +2,11 @@
 # RcloneBrowser Dockerfile
 #
 
-FROM jlesage/baseimage-gui:alpine-3.9-glibc
+FROM bonny1992/baseimage
 
 # Define environment variables
 ENV RCLONE_VERSION=current
-ENV ARCH=amd64
+ENV ARCH=arm64
 
 # Define working directory.
 WORKDIR /tmp

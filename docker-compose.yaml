@@ -1,5 +1,5 @@
 rclonebrowser_service:
-    image: romancin/rclonebrowser:latest
+    image: bonny1992/rclonebrowser:latest
     container_name: rclonebrowser
     ports:
       - "5804:5800"
